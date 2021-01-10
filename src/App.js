@@ -1,13 +1,10 @@
 import React from "react";
 import "./App.css";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Feel free to edit <code>src/App.js</code> and save to reload.
-      </p>
-    </div>
+    <Wrapper />
   );
 }
 
